@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<title>Guitar Center, Inc. / Front End Web Developer Code Assessment</title>
+
+		<script src="js/jquery-1.12.4.min.js"></script>
+		<script src="js/scripts.js"></script>
+
+		<link rel="stylesheet" href="styles/styles.css">
+
+	</head>
+
+	<body>
+
+		<div class="canvas">
+
+			<!-- top menu navigation -->
+			<ul class="top-navigation">
+				<li><a href="#">Guitars</a>
+					<ul class="submenu">
+						<li><a href="#">Electric Guitars</a></li>
+						<li><a href="#">Acoustic Guitars</a></li>
+						<li><a href="#">Acoustic-Electric Guitars</a></li>
+						<li><a href="#">Classical Guitars</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Bass</a></li>
+				<li><a href="#">Drums</a></li>
+				<li><a href="#">Keyboards</a></li>
+				<li><a href="#">Dj & Lighting</a></li>
+				<li><a href="#">Used Gear</a></li>
+				<li><a href="#">Clearance</a></li>
+			</ul>
+
+			<!-- banner image -->
+			<div class="main-graphic">
+				<div class="promo-box">
+					<div class="promo-header">
+						New Guitars
+					</div>
+					<div class="promo-content">
+						 adipiscing elit. Ut ipsum eros, scelerisque at massa ac, viverra sollicitudin purus. Vestibulum ante lectus, tempus sed mauris eget, elementum vehicula orci. Quisque blandit lacinia est, eu ultricies dolor mollis quis. Donec consectetur rhoncus ante vitae aliquam.
+					</div>
+				</div>
+			</div>
+
+			<!-- sidebar and menu -->
+			<div class="sidebar">
+				<ul class="accordeon-menu">
+					<li><a href="#">Link 1</a>
+						<ul class="submenu">
+							<li><a href="#">sub-link</a></li>
+							<li><a href="#">sub-link</a></li>
+							<li><a href="#">sub-link</a></li>
+							<li><a href="#">sub-link</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Link 2</a>
+						<ul class="submenu">
+							<li><a href="#">sub-link</a></li>
+							<li><a href="#">sub-link</a></li>
+							<li><a href="#">sub-link</a></li>
+							<li><a href="#">sub-link</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Link 3</a>
+						<ul class="submenu">
+							<li><a href="#">sub-link</a></li>
+							<li><a href="#">sub-link</a></li>
+							<li><a href="#">sub-link</a></li>
+							<li><a href="#">sub-link</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Link 4</a>
+						<ul class="submenu">
+							<li><a href="#">sub-link</a></li>
+							<li><a href="#">sub-link</a></li>
+							<li><a href="#">sub-link</a></li>
+							<li><a href="#">sub-link</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+
+			<!-- tabs -->
+			<div class="tabs">
+				<ul class="tab-menu">
+					<li class="active"><a href="#">On Sale</a></li>
+					<li><a href="#">New Arrivals</a></li>
+					<li><a href="#">Sign Up</a></li>
+					<li class="decoration"></li>
+				</ul>
+
+				<div class="tab-holder">
+
+					<div class="tab active">
+						<h4>HEADLINER DEALS</h4>
+
+						<ul class="showcase">
+							<li>
+								<a href="#" class="product-image">
+									<img src="images/product1.jpg" alt="" />
+								</a>
+								<a href="#" class="product-title">
+									The Name of this Instrument
+								</a>
+								<div class="prev-price">
+									Was: $500.00
+								</div>
+								<div class="price">
+									Now: $295.00
+								</div>
+							</li>
+							<li>
+								<a href="#" class="product-image">
+									<img src="images/product2.jpg" alt="" />
+								</a>
+								<a href="#" class="product-title">
+									The Name of this Instrument
+								</a>
+								<div class="prev-price">
+									Was: $500.00
+								</div>
+								<div class="price">
+									Now: $295.00
+								</div>
+							</li>
+							<li>
+								<a href="#" class="product-image">
+									<img src="images/product3.jpg" alt="" />
+								</a>
+								<a href="#" class="product-title">
+									The Name of this Instrument
+								</a>
+								<div class="prev-price">
+									Was: $500.00
+								</div>
+								<div class="price">
+									Now: $295.00
+								</div>
+							</li>
+						</ul>
+					</div>
+
+					<div class="tab">
+						<h4>New Arrivals</h4>
+						<div class="arrivals-content">
+						</div>
+					</div>
+
+					<div class="tab">
+						<h4>Sign Up</h4>
+						<form action="#" class="signup-form" onsubmit="return false;">
+							<label><span>First Name:</span> <input type="text" name="first_name" value="" /></label>
+							<label><span>Last Name:</span> <input type="text" name="last_name" value="" /></label>
+							<label><span>Email Address</span> <input type="text" name="email" value="" /></label>
+							<label><span>Password:</span> <input type="password" name="password" value="" /></label>
+							
+							<label><span>Communication Method:</span>
+								<select name="method">
+									<option selected>Email</option>
+								</select>
+							</label>
+
+							<label style="width:166px;"><span>Birthday:</span></label>
+							<select name="month">
+								<option selected>Month</option>
+							</select>							
+							<select name="day">
+								<option selected>Day</option>
+							</select>
+							<p style="text-align:center;"><input type="submit" value="Create Account" /></p>
+
+						</form>
+					</div>
+
+				</div>
+			</div>
+
+			<!-- bottom bar -->
+			<div class="bottom">
+				Copyright &copy; Guitar Center, Inc.
+			</div>
+
+		</div>
+	</body>
+
+</html>
